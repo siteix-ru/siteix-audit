@@ -1,0 +1,16 @@
+{
+  "name": "siteix-audit",
+  "version": "0.1.0",
+  "description": "Минимальный CLI-аудит страницы: HTTP, title, description, H1, canonical, изображения и формы.",
+  "type": "module",
+  "bin": {
+    "siteix-audit": "./bin/siteix-audit.mjs"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
